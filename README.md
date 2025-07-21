@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hithere%2C+I'm+Dabira+Olaoluwa+%F0%9F%91%8B" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Dabira+Olaoluwa+%F0%9F%91%8B" alt="Typing SVG" /></a>
 </p>
 
 A passionate **Full-Stack Developer** who loves building complete, user-friendly experiences from end to end. I specialize in creating simple, intuitive user interfaces that are powered by scalable and resilient backend systems. My focus is on writing clean code and engineering reliable solutions that protect user data.
