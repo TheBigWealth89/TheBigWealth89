@@ -1,16 +1,14 @@
-# Hi there, I'm Dabira Olaoluwa 👋
-
 <p align="center">
-  <img src="https://github.com/TheBigWealth89/TheBigWealth89/blob/main/assets/developer.gif" width="600" height="300">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Dabira+Olaoluwa+%F0%9F%91%8B" alt="Typing SVG" /></a>
 </p>
 
-A passionate Backend Engineer focused on building scalable, resilient systems that protect user data and guarantee data integrity. I engineer robust solutions designed to handle real-world failures gracefully, ensuring that not a single piece of data is ever lost.
+A passionate **Full-Stack Developer** who loves building complete, user-friendly experiences from end to end. I specialize in creating simple, intuitive user interfaces that are powered by scalable and resilient backend systems. My focus is on writing clean code and engineering reliable solutions that protect user data.
 
 ---
 
 ### 🚀 My Current Focus
 
-Right now, I'm deep-diving into the principles of system design and fault tolerance. My latest project is a perfect example:
+Right now, I'm deep-diving into the principles of system design and fault tolerance. My latest project demonstrates my ability to handle complex backend challenges:
 
 - 🔭 **[Fault-Tolerant Webhook Processor](https://github.com/TheBigWealth89/webhook-test)**: A production-grade system designed to never lose a single webhook. It uses a Redis-backed job queue, a resilient worker with a Dead-Letter Queue (DLQ), and an interactive dashboard for observability and manual recovery.
 
@@ -18,7 +16,7 @@ Right now, I'm deep-diving into the principles of system design and fault tolera
 
 ### 🛠️ My Tech Stack
 
-My toolbox includes a range of modern technologies for building powerful applications, end to end.
+My toolbox includes a range of modern technologies for building powerful applications.
 
 **Backend & Databases**
 <p align="left">
@@ -69,11 +67,11 @@ I'm always open to connecting with other developers and discussing new technolog
 ### 📊 My GitHub Stats
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=thebigwealth89&show_icons=true&locale=en&theme=dracula" alt="thebigwealth89" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=thebigwealth89&show_icons=true&locale=en&theme=dracula&hide_border=true&card_width=495" alt="thebigwealth89" />
 </p>
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=thebigwealth89&show_icons=true&locale=en&layout=compact&theme=dracula" alt="thebigwealth89" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=thebigwealth89&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true" alt="thebigwealth89" />
 </p>
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thebigwealth89&theme=dracula" alt="thebigwealth89" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thebigwealth89&theme=dracula&hide_border=true" alt="thebigwealth89" />
 </p>
