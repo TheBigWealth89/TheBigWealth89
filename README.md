@@ -26,12 +26,12 @@ decisions matter.
 #### [flash-sale-engine](https://github.com/TheBigWealth89/product_reservation)
 Production-grade reservation system for high-traffic flash sales.
 - Eliminated race conditions with Redis Lua atomic inventory checks (no TOCTOU window)
-- Idempotent BullMQ order fulfillment — duplicate Stripe webhooks never double-process
+- Idempotent BullMQ order fulfillment duplicate Stripe webhooks never double-process
 - Concurrency integration test: 6 simultaneous requests, inventory of 3, exactly 3 succeed
 
 #### [event-tracker](https://github.com/TheBigWealth89/event-tracker)
 Distributed real-time analytics pipeline with a fault-tolerant stream worker.
-- Redis Stream consumer with crash-safe bookmark — resumes exactly on restart
+- Redis Stream consumer with crash-safe bookmark resumes exactly on restart
 - TimescaleDB time_bucket upserts + live Socket.IO dashboard updates
 - 80%+ test coverage: unit, integration (Docker), and full E2E pipeline assertion
 
