@@ -11,7 +11,7 @@
 ### About Me
 
 I build backend systems where reliability isn't optional. My focus is 
-distributed systems in Node.js and Python — real-time event pipelines, 
+distributed systems in Node.js and Python real-time event pipelines, 
 concurrent reservation engines, and fault-tolerant async processors. 
 I care about data durability, observable systems, and writing code that 
 behaves correctly under load, not just in development.
@@ -21,31 +21,31 @@ decisions matter.
 
 ---
 
-###  Featured Projects
+### Featured Projects
 
-#### 🔗 [High-Concurrency Reservation System](https://github.com/TheBigWealth89/product_reservation)
-A **production-grade inventory management system** designed to handle race conditions and ensure data consistency:
+#### [flash-sale-engine](https://github.com/TheBigWealth89/product_reservation)
+Production-grade reservation system for high-traffic flash sales.
+- Eliminated race conditions with Redis Lua atomic inventory checks (no TOCTOU window)
+- Idempotent BullMQ order fulfillment — duplicate Stripe webhooks never double-process
+- Concurrency integration test: 6 simultaneous requests, inventory of 3, exactly 3 succeed
 
-- **Redis Lua Scripting** for atomic inventory operations
-- **BullMQ** for fault-tolerant job processing with retry logic
-- **PostgreSQL** as the single source of truth
-- **Timer-based self-healing** cleanup workers
-- **Admin dashboard** for manual oversight and monitoring
+#### [event-tracker](https://github.com/TheBigWealth89/event-tracker)
+Distributed real-time analytics pipeline with a fault-tolerant stream worker.
+- Redis Stream consumer with crash-safe bookmark — resumes exactly on restart
+- TimescaleDB time_bucket upserts + live Socket.IO dashboard updates
+- 80%+ test coverage: unit, integration (Docker), and full E2E pipeline assertion
 
-*Solving real-world concurrency problems with enterprise-level reliability.*
+#### [webhook-relay](https://github.com/TheBigWealth89/webhook-test)
+Resilient webhook processor using Redis LPUSH/BRPOP queue.
+- Automatic retry, dead-letter tracking, and idempotent handlers
+- CLI tool for queue inspection and manual intervention
+- Admin dashboard for real-time job monitoring
 
-#### 🔗 [Auth Service (Python/FastAPI)](https://github.com/TheBigWealth89/auth-service-py)
-A **production-ready authentication microservice** implementing modern security practices:
-
-- **FastAPI** with async/await for high performance
-- **SOLID principles** with abstract base classes for clean architecture
-- **Argon2** for secure password and token hashing
-- **JWT access tokens** + **Opaque refresh tokens** (hashed in database)
-- **PostgreSQL** with SQLAlchemy ORM and Alembic migrations
-- **Resend** for email verification with automatic token issuance
-- **Google OAuth** integration alongside traditional login/signup
-
-*Enterprise-grade authentication with security-first design and cryptographic best practices.*
+#### [auth-service-py](https://github.com/TheBigWealth89/auth-service-py)
+Production-ready FastAPI authentication microservice.
+- JWT access tokens + opaque refresh tokens hashed in database
+- Argon2 password hashing, Google OAuth, and email verification via Resend
+- SOLID architecture with abstract base classes and Alembic migrations
 
 ###  Current Focus
 
@@ -85,7 +85,6 @@ A **production-ready authentication microservice** implementing modern security 
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Alembic-000000?style=for-the-badge&logo=python&logoColor=white" alt="Alembic" />
 </p>
