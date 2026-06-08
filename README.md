@@ -8,11 +8,16 @@
 
 ---
 
-###  About Me
+### About Me
 
-I'm a passionate **Full-Stack Developer** specializing in building **production-ready, fault-tolerant systems**. I focus on creating scalable backend architectures with clean code, robust error handling, and intentional design patterns.
+I build backend systems where reliability isn't optional. My focus is 
+distributed systems in Node.js and Python — real-time event pipelines, 
+concurrent reservation engines, and fault-tolerant async processors. 
+I care about data durability, observable systems, and writing code that 
+behaves correctly under load, not just in development.
 
-My mission is to solve complex problems through **system thinking** and **developer empathy**.
+Currently looking for a backend or full-stack role where system design 
+decisions matter.
 
 ---
 
